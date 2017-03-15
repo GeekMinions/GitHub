@@ -6,5 +6,5 @@ package org.crazyit.app.service;
 public interface Hello {
     public void foo();
 
-    public void addUser(String name ,String pass);
+    public int addUser(String name ,String pass);
 }
