@@ -16,7 +16,7 @@ public class BeanTest
                 ClassPathXmlApplicationContext("bean.xml");
         Hello hello = ctx.getBean("hello" , Hello.class);
         hello.foo();
-        hello.addUser("孙悟空" , "7788");
+        hello.addUser("孙悟空s" , "7788");
         World world = ctx.getBean("world" , World.class);
         world.bar();
 

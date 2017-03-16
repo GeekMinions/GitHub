@@ -4,7 +4,7 @@ import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Aspect;
 
 /**
- * Created by ligangxiao on 2017/3/15.
+ * @AfterReturning:切点之后生效，当切点结束后，将会切入这个切面
  */
 @Aspect
 public class LogAspectj {

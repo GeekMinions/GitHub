@@ -4,8 +4,7 @@ import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 
 /**
- * 定义一个切面
- *
+ * @Before：切点之前生效，进入切点前将后切入这个切面
  */
 @Aspect
 public class AuthAspectj {
